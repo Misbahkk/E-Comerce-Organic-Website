@@ -1,0 +1,166 @@
+.navbar{
+        background-color: white;
+}
+.navbar-nav  a:hover{
+        color: #8bc34a !important;
+}
+.navbar-nav{
+        padding-left: 34;
+}
+.nav-link{
+        padding-left: 3.5rem !important;
+}
+.nav{
+        
+        
+        margin-left: 400px;
+    
+}
+.container-Img{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+}
+.text{
+        margin-left: 30px;
+    }  
+
+.text h1{
+
+        /* /* font-size: 70px; */
+        font-weight: 900;
+        font-size: 3.35rem;
+        font-family: 'Merriweather', serif;
+        line-height: 1.4em;
+}
+.text span{
+        font-size: 1.0625rem;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+}
+.btn-1{
+        background-color: #6a9739;
+        border-color: #6a9739;
+        padding: 10px;
+    width: 155px;
+}
+.btn-1:hover{
+        background-color: #8bc34a;
+        border-color:#8bc34a ;
+}
+.inner{
+        background-color: #000;
+}
+.e-con-inner{
+        display: flex;
+        width: 100%;
+        margin:  76px 0;
+        background-color: #000;
+}
+.e-con-inner div{
+        background-color: #303030;
+        margin: 30px;
+        width: 450px;
+        padding: 20px;
+        border-radius: 3px;
+        color: white;
+}
+.cards{
+        display: flex;
+        padding: 20px;
+}
+.card{
+        padding: 10px;
+        border: none;
+}
+.card-body{
+        text-align: center;
+        padding-bottom: 0;
+}
+.middle-prodcut{
+        text-align: center;
+        margin: 110px 0px 20px 0;
+}
+
+.card-img-vegi{
+        width: 80% !important;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+}
+.card-2{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        
+}
+.card-2 h4{
+        font-size: 1.9rem
+}
+.card-2 p{
+        font-size: 100%;
+}
+.inner-heading{
+        color: white;
+        display: flex;
+        padding: 3rem;
+        justify-content: space-between; 
+        align-items: center;
+}
+.middle-heading{
+        text-align: center;
+        margin-top: 25px;
+        
+}
+h1,h4,h2{
+        font-weight: 700;
+}
+.user-content p{
+        margin-top:5px;
+        font-size:15px;
+}
+    
+    
+.ratings i{
+        color:rgb(240, 252, 134);
+}
+.user-image{
+        display: flex;
+}
+
+.card-3{
+        background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);
+        background-size: cover;
+        transition: box-shadow 0.3s ease;
+        opacity: 1;
+        width: 23rem !important;
+        height: 24rem;
+        border-radius: 3px;
+        border: none;
+}
+.card-3::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(40, 38, 38, 0.7); /* Light color overlay */
+        opacity: 1; /* Initial opacity 0 for overlay */
+        transition: opacity 0.3s ease; /* Transition for hover effect */
+      }
+.card-3:hover::before {
+        opacity: 1; /* Increase opacity on hover */
+        background-color: rgba(8, 8, 8, 0.7);
+      }
+.card-3 .card-body {
+        position: relative; /* Make sure text is positioned above overlay */
+        z-index: 1; /* Ensure text is above overlay */
+      }
+
+.card-3 .card-body .card-title,
+.card-3 .card-body .card-subtitle,
+.card-3 .card-body .card-text,
+.card-3 .card-body .card-link {
+color: rgb(255, 255, 255); /* Text color */
+}
